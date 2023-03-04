@@ -85,7 +85,6 @@ public class LevelGenerator : MonoBehaviour
         }
         return null;
     }
-    //Creates a 2D array using perlin noise and descretizes it
     private int[,] PerlinMap(int height, int width, float scale, float sensitivity){
         int[,] map = new int[height, width];
         float sample;
